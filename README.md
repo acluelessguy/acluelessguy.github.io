@@ -1,3 +1,4 @@
+
 ## Subscribe to Our Newsletter
 
 Please enter your email to subscribe to our newsletter.
@@ -16,7 +17,8 @@ Thank you for visiting!
 
 <script>
 function subscribeEmail() {
-    var email = document.getElementById('email').value;
+    var emailInput = document.getElementById('email');
+    var email = emailInput.value;
     var data = {
         email: email
     };
@@ -37,6 +39,7 @@ function subscribeEmail() {
     })
     .then(data => {
         document.getElementById('message').innerText = 'Email successfully added to the newsletter!!';
+        emailInput.value = ''; // Clear the email input box
     })
     .catch((error) => {
         document.getElementById('message').innerText = 'Subscription failed';
