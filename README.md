@@ -1,5 +1,3 @@
-# Welcome to Site!!
-
 ## Subscribe to Our Newsletter
 
 Please enter your email to subscribe to our newsletter.
@@ -11,6 +9,8 @@ Please enter your email to subscribe to our newsletter.
 </form>
 
 <div id="message"></div>
+
+Email: acluelessguyemail@gmail.es
 
 Thank you for visiting!
 
