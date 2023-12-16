@@ -1,5 +1,5 @@
 
-## Subscribe to Our Newsletter
+## Subscribe to the Newsletter!!
 
 Please enter your email to subscribe to our newsletter.
 
