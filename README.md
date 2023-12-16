@@ -1,12 +1,9 @@
 
 ## Subscribe to the Newsletter!!
 
-Please enter your email to subscribe to our newsletter.
-
 <form id="subscription-form">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <input type="button" value="Subscribe" onclick="subscribeEmail()">
+    <input type="email" placeholder="email" id="email" name="email" required>
+    <input type="button" value="Subscribe!!" onclick="subscribeEmail()">
 </form>
 
 <div id="message"></div>
