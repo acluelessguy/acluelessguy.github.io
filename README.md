@@ -1,9 +1,5 @@
 # Welcome to Site!!
 
-## Subscribe to Our Newsletter
-
-Please submit your email to subscribe to our newsletter.
-
 # Subscribe to Our Newsletter
 
 Please enter your email to subscribe to our newsletter.
