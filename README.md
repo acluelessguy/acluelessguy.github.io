@@ -1,5 +1,9 @@
-<input type="email" placeholder="email" id="email" name="email" required>
-<input type="button" value="Subscribe!!" onclick="subscribeEmail()">
+## Subscribe to the newsletter!!
+ 
+ <form id="subscription-form">
+    <input type="email" placeholder="email" id="email" name="email" required>
+    <input type="button" value="Subscribe!!" onclick="subscribeEmail()">
+</form>
 
 <div id="message" style="display: none;"></div>
 
