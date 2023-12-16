@@ -12,8 +12,6 @@ Please enter your email to subscribe to our newsletter.
 
 <div id="message"></div>
 
-Email: acluelessguyemail@gmail.es
-
 Thank you for visiting!
 
 <script>
