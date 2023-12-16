@@ -1,12 +1,7 @@
+<input type="email" placeholder="email" id="email" name="email" required>
+<input type="button" value="Subscribe!!" onclick="subscribeEmail()">
 
-## Subscribe to the Newsletter!!
-
-<form id="subscription-form">
-    <input type="email" placeholder="email" id="email" name="email" required>
-    <input type="button" value="Subscribe!!" onclick="subscribeEmail()">
-</form>
-
-<div id="message"></div>
+<div id="message" style="display: none;"></div>
 
 <script>
 function subscribeEmail() {
@@ -33,9 +28,17 @@ function subscribeEmail() {
     .then(data => {
         document.getElementById('message').innerText = 'Email successfully added to the newsletter!!';
         emailInput.value = ''; // Clear the email input box
+        hideForm(); // Call a function to hide the form
     })
     .catch((error) => {
         document.getElementById('message').innerText = 'Subscription failed';
     });
+}
+
+function hideForm() {
+    var form = document.getElementById('subscription-form');
+    var message = document.getElementById('message');
+    form.style.display = 'none'; // Hide the form
+    message.style.display = 'block'; // Show the success message
 }
 </script>
